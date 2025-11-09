@@ -1,0 +1,2 @@
+Model,Input_Features,Accuracy,Macro_F1,Train_Time_Minutes,Data_Usage,Epochs,Batch_Size,Notes
+Whisper-tiny,Raw audio,1.0,1.0,4,subset,2,4,Baseline - CSV data loading
