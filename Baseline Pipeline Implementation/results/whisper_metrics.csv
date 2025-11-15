@@ -1,0 +1,2 @@
+Model,Accuracy,Macro_F1,Epochs,Batch_Size,Notes
+Fast Whisper-tiny,0.3877551020408163,0.16813957706982124,5,8,Optimized for speed - uses full 30s Whisper processing
