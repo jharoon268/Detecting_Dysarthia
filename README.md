@@ -163,11 +163,12 @@ python evaluate.py --model whisper --checkpoint checkpoints/whisper_best.pt
 ---
 
 ## Implementation Notes & Challenges
-Challenge |	Solution
-Large transformer models (Wav2Vec2, Whisper) require high memory	 | GPU acceleration (NVIDIA T4 on Google Colab Pro)
-Audio preprocessing (MFCC/Spectrogram extraction) time-consuming | Optimized batch processing with Librosa
-Noisy or truncated audio samples | Filtering and validation before training
-Overfitting on small dataset (2,176 samples) | Dropout, weight decay, early stopping, gradient clipping
+| Challenge | Solution |
+|-----------|----------|
+| Large transformer models (Wav2Vec2, Whisper) require high memory | GPU acceleration (NVIDIA T4 on Google Colab Pro) |
+| Audio preprocessing (MFCC/Spectrogram extraction) time-consuming | Optimized batch processing with Librosa |
+| Noisy or truncated audio samples | Filtering and validation before training |
+| Overfitting on small dataset (2,176 samples) | Dropout, weight decay, early stopping, gradient clipping |
 
 --- 
 
